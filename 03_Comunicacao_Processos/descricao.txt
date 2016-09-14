@@ -1,0 +1,15 @@
+                                   Descrição da tarefa
+
+Baseando-se nos arquivos mqueue-recv.c, mqueue-send.c e shared-mem.c:
+1) _ Implementar um programa que envie dados de um processo A para um processo B através de filas de mensagens
+
+2) _ Similarmente ao item 1, utilizar uma área de memória compartilhada entre dois processos para a transmissão das informações
+
+Fazer um relatório explicando a estrutura dos programas e qual a estratégia que permite dizer que efetivamente houve troca de
+informações entre os processos. Explicar as diferenças entre o item 1 o item 2 quanto ao mecanismo de ligação entre os 
+processos.
+
+
+
+****************************************O que acontece quando voce somente envia ou recebe mensagem*************************************
+****************************************qual a influencia de cada comando na execucao dos programas************************************* 
