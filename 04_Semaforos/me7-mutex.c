@@ -74,7 +74,7 @@ printf("Time Elapsed: ");
     elapsedTime = (t2.tv_sec - t1.tv_sec) * 1000.0;      // sec to ms
     elapsedTime += (t2.tv_usec - t1.tv_usec) / 1000.0;   // us to ms
     printf("%f ms.\n", elapsedTime);
-    
+
    pthread_attr_destroy (&attr) ;
    pthread_exit (NULL) ;
 }
